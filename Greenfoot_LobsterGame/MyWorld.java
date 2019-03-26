@@ -1,0 +1,265 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(600, 400, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        dol dol = new dol();
+        addObject(dol,56,68);
+        dol dol2 = new dol();
+        addObject(dol2,61,170);
+        dol dol3 = new dol();
+        addObject(dol3,67,313);
+        star star = new star();
+        addObject(star,252,100);
+        star star2 = new star();
+        addObject(star2,259,201);
+        star star3 = new star();
+        addObject(star3,259,317);
+        star.setLocation(173,98);
+        star2.setLocation(151,188);
+        star3.setLocation(207,313);
+        star2.setLocation(195,200);
+        star.setLocation(211,88);
+        lobster lobster = new lobster();
+        addObject(lobster,373,97);
+        lobster lobster2 = new lobster();
+        addObject(lobster2,362,197);
+        lobster lobster3 = new lobster();
+        addObject(lobster3,378,316);
+        dol.setLocation(37,67);
+        dol2.setLocation(38,180);
+        dol3.setLocation(36,318);
+        star.setLocation(148,78);
+        star2.setLocation(138,193);
+        star3.setLocation(138,319);
+        lobster.setLocation(290,88);
+        lobster2.setLocation(299,199);
+        lobster3.setLocation(380,326);
+        lobster.setLocation(345,91);
+        lobster2.setLocation(318,199);
+        lobster.setLocation(311,102);
+        lobster2.setLocation(276,205);
+        lobster3.setLocation(299,321);
+        lobster.setLocation(356,101);
+        lobster.setLocation(323,95);
+        lobster.setLocation(380,99);
+        lobster2.setLocation(382,206);
+        lobster3.setLocation(364,316);
+        star.setLocation(134,113);
+        star2.setLocation(104,235);
+        star3.setLocation(120,365);
+        lobster2.setLocation(263,211);
+        lobster.setLocation(286,79);
+        lobster3.setLocation(292,342);
+        dol3.setLocation(49,350);
+        dol2.setLocation(140,313);
+        dol.setLocation(31,163);
+        dol2.setLocation(163,45);
+        dol3.setLocation(161,326);
+        lobster.setLocation(356,31);
+        lobster2.setLocation(274,115);
+        lobster3.setLocation(307,381);
+        lobster2.setLocation(227,184);
+        star.setLocation(62,62);
+        star2.setLocation(50,239);
+        star3.setLocation(47,369);
+        dol.setLocation(143,180);
+        dol2.setLocation(164,64);
+        lobster2.setLocation(270,194);
+        lobster3.setLocation(319,379);
+        dol.setLocation(20,176);
+        dol2.setLocation(41,64);
+        dol3.setLocation(33,342);
+        star3.setLocation(147,330);
+        star2.setLocation(161,211);
+        star.setLocation(194,58);
+        star.setLocation(258,52);
+        lobster.setLocation(364,74);
+        star.setLocation(161,97);
+        star2.setLocation(168,198);
+        star3.setLocation(172,301);
+        lobster3.setLocation(301,311);
+        lobster3.setLocation(381,327);
+        star.setLocation(225,46);
+        dol2.setLocation(21,28);
+        dol2.setLocation(13,43);
+        dol.setLocation(96,61);
+        lobster.setLocation(425,115);
+        star.setLocation(341,52);
+        star2.setLocation(182,61);
+        star3.setLocation(254,93);
+        dol3.setLocation(30,111);
+        lobster2.setLocation(304,180);
+        lobster2.setLocation(239,188);
+        lobster.setLocation(441,159);
+        lobster2.setLocation(282,172);
+        lobster.setLocation(444,121);
+        lobster3.setLocation(379,263);
+        dol3.setLocation(25,200);
+        dol.setLocation(43,246);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol2.setLocation(21,154);
+        dol.setLocation(26,283);
+        dol3.setLocation(18,220);
+        dol2.setLocation(16,166);
+        lobster.setLocation(406,64);
+        lobster2.setLocation(365,132);
+        lobster3.setLocation(362,178);
+        star2.setLocation(235,165);
+        lobster2.setLocation(350,130);
+        lobster3.setLocation(351,214);
+        star3.setLocation(151,68);
+        star.setLocation(304,42);
+        star2.setLocation(195,130);
+        removeObject(star2);
+        star3.setLocation(190,152);
+        dol2.setLocation(38,74);
+        dol3.setLocation(25,157);
+        dol.setLocation(25,225);
+        removeObject(dol2);
+        dol.setLocation(15,265);
+        lobster2.setLocation(281,180);
+        dol3.setLocation(11,99);
+        star3.setLocation(163,185);
+        star.setLocation(230,78);
+        star3.setLocation(167,205);
+        lobster3.setLocation(347,266);
+        removeObject(lobster3);
+        lobster2.setLocation(290,208);
+        lobster2.setLocation(295,268);
+        lobster.setLocation(325,125);
+        dol3.setLocation(58,75);
+        dol.setLocation(31,224);
+        star.setLocation(215,106);
+        star3.setLocation(170,306);
+        star3.setLocation(211,224);
+        lobster2.setLocation(304,306);
+        lobster.setLocation(364,87);
+        lobster2.setLocation(335,253);
+        lobster2.setLocation(320,300);
+        lobster.setLocation(354,145);
+        lobster.setLocation(355,137);
+        lobster.setLocation(355,116);
+        lobster2.setLocation(324,254);
+        dol.setLocation(17,296);
+        dol3.setLocation(23,146);
+        lobster.setLocation(355,139);
+        lobster2.setLocation(324,255);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(23,146);
+        dol3.setLocation(49,75);
+        dol.setLocation(29,242);
+        removeObject(lobster2);
+        removeObject(star3);
+        star.setLocation(207,168);
+        lobster.setLocation(458,293);
+        star.setLocation(232,133);
+        removeObject(dol);
+        dol3.setLocation(29,199);
+        star.setLocation(237,86);
+        lobster.setLocation(346,216);
+        dol3.setLocation(91,113);
+        dol3.setLocation(56,164);
+        star.setLocation(253,56);
+        lobster.setLocation(305,187);
+        dol3.setLocation(7,134);
+        dol3.setLocation(39,133);
+        lobster.setLocation(343,179);
+        star.setLocation(203,105);
+        dol3.setLocation(41,55);
+        star.setLocation(53,162);
+        dol3.setLocation(187,56);
+        star.setLocation(166,165);
+        lobster.setLocation(343,257);
+        star.setLocation(221,147);
+        dol3.setLocation(124,50);
+        star.setLocation(129,191);
+        lobster.setLocation(326,191);
+        star.setLocation(149,75);
+        dol3.setLocation(114,228);
+        star.setLocation(115,250);
+        dol3.setLocation(115,60);
+        dol3.setLocation(59,191);
+        star.setLocation(246,100);
+        lobster.setLocation(353,212);
+        dol3.setLocation(45,242);
+        lobster.setLocation(390,217);
+        dol3.setLocation(20,269);
+        dol3.setLocation(46,208);
+        lobster.setLocation(319,219);
+        star.setLocation(173,76);
+        lobster.setLocation(309,163);
+        dol3.setLocation(14,243);
+        star.setLocation(200,87);
+        lobster.setLocation(357,210);
+        star.setLocation(294,116);
+        star.setLocation(251,203);
+        dol3.setLocation(16,87);
+        lobster.setLocation(393,203);
+        star.setLocation(38,197);
+        lobster.setLocation(215,203);
+        dol3.setLocation(363,208);
+        dol3.setLocation(379,208);
+        lobster.setLocation(202,204);
+        star.setLocation(20,135);
+        star.setLocation(10,187);
+        lobster.setLocation(162,196);
+    }
+}
